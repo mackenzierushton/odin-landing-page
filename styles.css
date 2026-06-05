@@ -55,6 +55,18 @@ a {
 
 h1 {
   font-size: 48px;
+  color: #f9faf8;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 0;
 }
 
 .hero-image {
@@ -78,4 +90,94 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 64px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.info-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  border: 3.5px solid #3882f6;
+}
+
+.subsection {
+  text-align: center;
+  max-width: 150px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 32px;
+}
+
+.quote-text {
+  font-size: 36px;
+  max-width: 800px;
+  color: #1f2937;
+  font-style: italic;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+
+.quote-author {
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 900;
+  align-self: flex-end;
+  padding-right: 400px;
+}
+
+.call-outer {
+  display: flex;
+  justify-content: center;
+  margin: 64px;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 32px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  width: 900px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.call-button {
+  border: 3px solid #e5e7eb;
+}
+
+.call p {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 16px;
 }
